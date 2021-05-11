@@ -1,0 +1,35 @@
+@charset "UTF-8";
+*{
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+  outline: none;
+}
+html,body{ height: 100%;}
+ul,ol{ list-style: none; }
+
+ul {
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
+  border-left: 1px solid #f1f1f1;
+}
+
+ul li button {
+  outline: none;
+  background: none;
+  font-size: 18px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+}
+
+#content{
+  display: inline-block;
+  min-width: 500px;
+  min-height: 500px;
+  margin-top: 10px;
+  border: 1px solid #f1f1f1;
+  background-color: #f9f9f9;
+}
